@@ -1,0 +1,15 @@
+{
+  "name": "rserv-client-test",
+  "version": "1.0.0",
+  "description": "Test RServe Client from Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sean Wells <sean.wells.sc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^8.4.0",
+    "rserve-client": "^0.3.2"
+  }
+}
