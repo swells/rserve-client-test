@@ -11,6 +11,16 @@
 
 ## Usage
 
+### Start Rserve
+
+```R
+> library("Rserve")
+> Rserve()
+```
+
+By default Rserve will listen on *http://localhost:6311*
+
+### Start Node Webserver
 ```
 $ node server.js
 ```
