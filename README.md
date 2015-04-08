@@ -30,7 +30,7 @@ Vist *http://localhost:8000/eval/{rcode}* and include some R Code.
 ### Example:
 
 ```
-http://localhost:8000/eval/x<-5
+http://localhost:8000/eval/x<-rnorm(10)
 ```
 
 Supports both HTTP `POST` and `GET`
