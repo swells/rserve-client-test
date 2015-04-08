@@ -1,7 +1,7 @@
 
 > Try [rserve-client](https://www.npmjs.com/package/rserve-client) for Node.js
 
-## Insall
+## Install
 
 1. `$ git clone https://github.com/swells/rserve-client-test.git`
 
@@ -15,7 +15,9 @@
 $ node server.js
 ```
 
-Vist `http://localhost:8000/eval/{rcode}` and include some R Code. Example:
+Vist *http://localhost:8000/eval/{rcode}* and include some R Code. 
+
+### Example:
 
 ```
 http://localhost:8000/eval/x<-5
