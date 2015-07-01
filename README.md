@@ -47,4 +47,6 @@ $ curl -X GET http://localhost:8000/eval/"x<-rnorm(10)"
 
 ##### Example:
 
+```
 curl -X POST http://localhost:8000/eval -H "Content-Type: text/plain" --data-binary "@PATH/TO/SCRIPT.R"
+````
