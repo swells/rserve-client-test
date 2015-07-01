@@ -25,12 +25,26 @@ By default Rserve will listen on *http://localhost:6311*
 $ node server.js
 ```
 
-Vist *http://localhost:8000/eval/{rcode}* and include some R Code. 
+Supports both HTTP `POST` and `GET`
 
-### Example:
+#### HTTP GET
+
+##### Example:
+
+Vist *http://localhost:8000/eval/{rcode}* and include some R Code. 
 
 ```
 http://localhost:8000/eval/x<-rnorm(10)
 ```
 
-Supports both HTTP `POST` and `GET`
+or
+
+```
+$ curl -X GET http://localhost:8000/eval/"x<-rnorm(10)"
+```
+
+#### HTTP POST
+
+##### Example:
+
+curl -X POST http://localhost:8000/eval -H "Content-Type: text/plain" --data-binary "@PATH/TO/SCRIPT.R"
