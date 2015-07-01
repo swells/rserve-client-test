@@ -1,15 +1,19 @@
 {
-  "name": "rserve-client-test",
-  "version": "1.0.0",
-  "description": "Test RServe Client from Node.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sean Wells <sean.wells.sc@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "hapi": "^8.4.0",
-    "rserve-client": "^0.3.2"
-  }
+    "name": "rserve-client-test",
+    "version": "1.0.0",
+    "description": "Test RServe Client from Node.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swells/rserve-client-test.git"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sean Wells <sean.wells.sc@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "hapi": "^8.4.0",
+        "rserve-client": "git://github.com/swells/rserve-client.git#master"
+    }
 }
